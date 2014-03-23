@@ -4,7 +4,7 @@
 compute(_number) when _number rem 3 =:= 0 ->
   	"Fizz";
 
-compute(_number) when _number == 5 ->
+compute(_number) when _number rem 5 =:= 0 ->
   	"Buzz";
 
 compute(_number) ->
