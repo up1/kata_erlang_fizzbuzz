@@ -1,6 +1,9 @@
 -module(fizzbuzz).
 -include_lib("eunit/include/eunit.hrl").
 
+compute(_number) when _number == 3 ->
+  	"Fizz";
+
 compute(_number) ->
   integer_to_list(_number).
  
