@@ -4,6 +4,9 @@
 compute(_number) when _number == 3 ->
   	"Fizz";
 
+compute(_number) when _number == 5 ->
+  	"Buzz";
+
 compute(_number) ->
   integer_to_list(_number).
  
