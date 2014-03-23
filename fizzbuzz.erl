@@ -38,4 +38,7 @@ nine_should_return_Fizz_test() ->
     ?assertEqual("Fizz", compute(9)).
 
 ten_should_return_Buzz_test() ->
-    ?assertEqual("Buzz", compute(10)).    
+    ?assertEqual("Buzz", compute(10)).
+
+fifteen_should_return_FizzBuzz_test() ->
+    ?assertEqual("FizzBuzz", compute(15)).    
