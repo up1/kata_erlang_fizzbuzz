@@ -1,7 +1,7 @@
 -module(fizzbuzz).
 -include_lib("eunit/include/eunit.hrl").
 
-compute(_number) when _number == 3 ->
+compute(_number) when _number rem 3 =:= 0 ->
   	"Fizz";
 
 compute(_number) when _number == 5 ->
