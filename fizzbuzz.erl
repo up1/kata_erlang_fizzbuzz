@@ -24,3 +24,6 @@ four_should_return_four_test() ->
 
 five_should_return_Buzz_test() ->
     ?assertEqual("Buzz", compute(5)). 
+
+six_should_return_Fizz_test() ->
+    ?assertEqual("Fizz", compute(6)). 
