@@ -14,4 +14,7 @@ two_should_return_two_test() ->
     ?assertEqual("2", compute(2)).
 
 three_should_return_Fizz_test() ->
-    ?assertEqual("Fizz", compute(3)). 
+    ?assertEqual("Fizz", compute(3)).
+
+four_should_return_four_test() ->
+    ?assertEqual("4", compute(4)). 
