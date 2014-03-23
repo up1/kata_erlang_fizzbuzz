@@ -9,3 +9,6 @@ one_should_return_one_test() ->
 
 two_should_return_two_test() ->
     ?assertEqual("2", compute(2)).
+
+three_should_return_Fizz_test() ->
+    ?assertEqual("Fizz", compute(3)). 
