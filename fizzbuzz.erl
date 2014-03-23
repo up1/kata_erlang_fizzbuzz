@@ -17,4 +17,7 @@ three_should_return_Fizz_test() ->
     ?assertEqual("Fizz", compute(3)).
 
 four_should_return_four_test() ->
-    ?assertEqual("4", compute(4)). 
+    ?assertEqual("4", compute(4)).
+
+five_should_return_Buzz_test() ->
+    ?assertEqual("Buzz", compute(5)). 
